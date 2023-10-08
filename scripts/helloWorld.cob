@@ -1,0 +1,8 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HelloWorld.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 MESSAGE PIC X(12) VALUE "Hello, World!".
+       PROCEDURE DIVISION.
+           DISPLAY MESSAGE.
+           STOP RUN.
